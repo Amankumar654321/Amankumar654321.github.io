@@ -1,0 +1,190 @@
+body{
+background-color: rgb(248, 215, 225);
+}
+#navbar{
+height: 50px;
+width: 100%;
+display: flex;
+padding: 10px;
+justify-content: space-evenly;
+justify-items: center;
+background-color: rgb(14, 15, 15);
+
+}
+#navbar>div{
+    font-size: 20px;
+    font-weight: bolder;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(245, 209, 6);
+    cursor: pointer;
+    
+}
+#navbar>div:hover{
+    background-color: bisque;
+    color: black;
+}
+#container1{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(1, 550px);
+column-gap: 250px;
+padding: 40px;
+
+}
+#container1>div{
+padding: 100px;
+box-sizing: border-box;
+background-color: bisque;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+#container2{
+    display: flex;
+    height: 50px;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+#container2>i{
+    border: 1px solid rgba(0, 234, 255, 0.982);
+    border-radius: 30px;
+    width: 25%;
+    align-items: center;
+    height: 45px;
+    padding: 9px;
+    margin-left: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.419), rgba(255, 0, 0, 0.748));
+    cursor: pointer;
+}
+#picture{
+    padding: 40px 100px 10px 100px;
+}
+#anima{
+    height: 400px; 
+    border-radius: 1000px;
+}
+#img1{
+    height:400px;
+    width:100%; 
+    border-radius: 300px; 
+    border: 5px solid rgb(22, 22, 21);
+}
+@media (min-width: 600px) and (max-width:800px){
+    #navbar{
+        width: auto;    
+        margin: auto;
+        height: auto;
+        }
+        #navbar>div{
+            font-size: 15px;
+            font-weight: bolder;
+           
+        }
+        #container1{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 480px);
+            column-gap: 0px;
+            row-gap: 10px;
+            padding: 0px;
+            
+            }
+            #container1>div{
+            padding: 20px;  
+            }
+            
+            #container2{
+                display: flex;
+                height: 70px;
+                width: 50%;
+                justify-content: space-around;
+                margin-left: -5px;
+            }
+            #container2>i{
+                border: 1px solid rgba(0, 234, 255, 0.982);
+                border-radius: 30px;
+                width: 25%;
+                align-items: center;
+                height: 45px;
+                padding: 9px;
+                margin-left: 10px;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.419), rgba(255, 0, 0, 0.748));
+                cursor: pointer;
+            }
+          
+            #anima{
+                height: 500px; 
+                border-radius: 1000px;
+            }
+            #img1{
+                height:300px;
+                width:50%; 
+                border-radius: 300px; 
+                border: 5px solid rgb(22, 22, 21);
+            }
+
+}
+
+@media (min-width: 300px) and (max-width:600px){
+    #navbar{
+        width: auto;    
+        margin: auto;
+        height: auto;
+        }
+        #navbar>div{
+            font-size: 15px;
+            font-weight: bolder;
+           
+        }
+        #container1{
+            display: grid;
+            grid-template-columns: repeat(1, 100%);
+            grid-template-rows: repeat(2, 480px);
+            column-gap: 0px;
+            row-gap: 10px;
+            padding: 0px;
+            
+            }
+            #container1>div{
+            padding: 20px;  
+            }
+            
+            #container2{
+                display: flex;
+                height: 70px;
+                width: 50%;
+                justify-content: space-around;
+                margin-left: 60px;
+            }
+            #container2>i{
+                border: 1px solid rgba(0, 234, 255, 0.982);
+                border-radius: 30px;
+                width: 32%;
+                align-items: center;
+                height: 45px;
+                padding: 9px;
+                margin-left: 10px;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.419), rgba(255, 0, 0, 0.748));
+                cursor: pointer;
+            }
+          
+            #anima{
+                height: 500px; 
+                border-radius: 1000px;
+            }
+            #img1{
+                height:260px;
+                width:100%; 
+                border-radius: 300px; 
+                border: 5px solid rgb(22, 22, 21);
+            }
+
+}
+
+

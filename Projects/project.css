@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(248, 215, 225);
+    }
+    
+    #navbar{
+    height: 50px;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: rgb(14, 15, 15);
+    
+    }
+   
+    #navbar>div{
+        font-size: 20px;
+        font-weight: bolder;
+        height: 40px;
+        width: 100px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 10px;
+        color: rgb(245, 209, 6);
+        cursor: pointer;
+        
+    }
+    #navbar>div:hover{
+        background-color: bisque;
+        color: black;
+    }
+#container4{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(1, 550px);
+row-gap: 10px;
+column-gap: 20px;
+padding: 20px;
+box-sizing: border-box;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+#container4>div{
+    padding: 20px;
+    box-shadow: rgba(59, 58, 58, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+#container4>div:hover{
+    background-color: bisque;
+    cursor: pointer;
+    transition: 0.3s;
+    transform:scale(1.1);
+    
+}
+#container4>div>img{
+height: 200px;
+width: 100%;
+border: 1px solid;
+border-radius: 5px;
+}
+#container4>div>img:hover{
+   transition: 1s;
+   transform: scale(1.1);
+    }
+#heading4{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+#desc2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 1px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: rgb(255, 128, 0);
+    font-weight: bold;
+}
+h2{
+    line-height: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.desc3{
+font-size: 25px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lan{
+font-size: 20px;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 5px;
+}
+.container5{
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+height: auto;
+}
+.butn1{
+cursor: pointer;
+height: 50px;
+width: 30%;
+font-size: 20px;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-radius: 5px;
+background-color: brown;
+box-shadow: rgba(41, 38, 38, 0.963) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.butn1:hover{
+    background-color: bisque;
+    color: black;
+    background: burlywood;
+   
+}
+@media (min-width:300px) and (max-width:800px){
+    #navbar{
+        width: auto;    
+        margin: auto;
+        height: auto;
+        }
+        #navbar>div{
+            font-size: 15px;
+            font-weight: bolder;
+           
+        }
+    
+        #container4{
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 500px);
+            row-gap: 10px;
+            }
+   
+    #container4>div>img{
+    height: 200px;
+  
+    }
+    #heading4{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    #desc2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        line-height: 1px;
+        margin-bottom: 50px;
+        font-size: 11px;
+        color: rgb(255, 128, 0);
+        font-weight: bold;
+    }
+    h2{
+        line-height: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .desc3{
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .lan{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 5px;
+    }
+   
+    .butn1{
+    cursor: pointer;
+    height: 52px;
+    width: 30%;
+   
+    }
+   
+
+
+
+
+}
